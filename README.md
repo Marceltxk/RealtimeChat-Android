@@ -51,10 +51,6 @@ Conforme os requisitos do trabalho (valor: 48 pontos), o UfuMessenger implementa
 
 ---
 
-## 📸 Screenshots
-
-[Adicione aqui GIFs ou imagens da sua apresentação, mostrando o chat, o GPS, a foto, etc. Dica: Use Giphy.com para converter vídeos em GIFs]
-
 ## 💻 Como Rodar o Projeto
 
 1.  Clone este repositório.
