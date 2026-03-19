@@ -61,4 +61,4 @@ Conforme os requisitos do trabalho (valor: 48 pontos), o UfuMessenger implementa
 
 ## 📄 Licença
 
-Este projeto é licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para detalhes.
+Este projeto é licenciado sob a licença MIT.
