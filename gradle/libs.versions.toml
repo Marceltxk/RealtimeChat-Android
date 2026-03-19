@@ -1,0 +1,74 @@
+[versions]
+accompanistPermissions = "0.37.3"
+agp = "8.13.2"
+googleServices = "4.4.1"
+hiltAndroid = "2.51.1"
+ksp = "2.0.20-1.0.24"
+firebaseBom = "32.8.1"
+koinAndroid = "3.5.3"
+kotlin = "2.0.20"
+core-ktx = "1.13.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+lifecycle-runtime-ktx = "2.7.0"
+activity-compose = "1.9.0"
+compose-bom = "2024.04.01"
+materialIconsExtended = "1.6.6"
+navigation-compose = "2.7.7"
+room = "2.6.1"
+material = "1.12.0"
+lifecycleRuntimeComposeAndroid = "2.9.2"
+coreSplashscreen = "1.0.1"
+hiltNavigationCompose = "1.2.0"
+coil = "2.7.0"
+firebaseFirestore = "26.0.0"
+foundation = "1.9.0"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-appcheck-playintegrity = { module = "com.google.firebase:firebase-appcheck-playintegrity" }
+firebase-appcheck-playintegrity-debug = { module = "com.google.firebase:firebase-appcheck-debug" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroid" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-lifecycle-runtime-compose-android = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose-android", version.ref = "lifecycleRuntimeComposeAndroid" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }
