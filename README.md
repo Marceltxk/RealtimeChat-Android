@@ -6,7 +6,7 @@
 * Isac Silva
 * Marcel Teixeira Chiarelo
 * William Menezes Damascena
-* Gilete Leite Iasbeck
+* Gisele Leite Iasbeck
 
 ---
 
